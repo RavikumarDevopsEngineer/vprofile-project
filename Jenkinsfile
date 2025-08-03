@@ -6,7 +6,7 @@ pipeline {
         ARTIFACT_NAME = "vprofile-v${buildNumber}.war"
         AWS_S3_BUCKET = 'vprocicdbeanbucket2580'
         AWS_EB_APP_NAME = 'vproapp-bean-stage-jenkins'
-        AWS_EB_ENVIRONMENT = 'Vproappbeanstage-env'
+        AWS_EB_ENVIRONMENT = 'Vproappbeanprod-env'
         AWS_EB_APP_VERSION = "${buildNumber}"
     }
 
